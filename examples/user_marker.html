@@ -1,0 +1,48 @@
+<head>
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=kfnhnf7qdq"></script>
+<script src="js/jquery-3.5.1.min.js"></script>
+
+</head>
+
+<body>
+<div id='map' style="width:1000px;height:1000px">
+</div>
+</body>
+
+<script>
+
+var map = new naver.maps.Map('map', {
+    center: new naver.maps.LatLng(36.799141, 127.074877),
+	        zoom: 15
+		});
+
+var marker = new naver.maps.Marker({
+    position: new naver.maps.LatLng(36.799141, 127.074877),
+    map: map,
+    title: '사기',
+    icon: {
+	    content: [
+		    '<div style="padding-top:5px;padding-bottom:5px;padding-left:5px;padding-right:5px;background-color:#d3cc07;color:white;text-align:center;border:1px solid #a09b07;border-radius:14px;opacity:75%" onmouseover="javascript:overCrime(\'crime3\')" onmouseout="javascript:outCrime(\'crime3\')">',
+		    '<div style="font-weight:bold; font-size:14px">사기</div>',
+		    '<div id="crime3" style="font-weight:normal; font-size:13px; margin-top:3px;display:none">2020-05-30<br>09시 13분</div>',
+		    '</div>'
+		    ].join(''),
+	    size: new naver.maps.Size(38, 58),
+	    anchor: new naver.maps.Point(19, 58),
+    }
+});
+
+function overCrime(childID){
+	$("#"+childID).show();
+}
+
+function outCrime(childID){
+	$("#"+childID).hide();
+}
+
+</script>
+
+
+
+
+

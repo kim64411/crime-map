@@ -1,0 +1,24 @@
+<body>
+<div id='map' style="width:1000px;height:1000px">
+</div>
+</body>
+
+<script type="text/javascript" src="https://openapi.map.naver.com/openapi/v3/maps.js?ncpClientId=kfnhnf7qdq"></script>
+<script>
+
+var map = new naver.maps.Map('map', {
+    center: new naver.maps.LatLng(36.799141, 127.074877),
+	        zoom: 15
+		});
+
+var marker = new naver.maps.Marker({
+    position: new naver.maps.LatLng(36.799141, 127.074877),
+    map: map
+});
+
+</script>
+
+
+
+
+
