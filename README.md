@@ -8,7 +8,7 @@
 * 팀원: [최찬혁] - Web Front-End
 * 팀원: [정명채] - Design / Data Manage
 
- <img width="887" alt="미리보기" src="https://user-images.githubusercontent.com/55692618/80080427-94684b00-858c-11ea-8275-0bfd5c693a2e.PNG">
+ <img width="887" alt="미리보기" src="https://github.com/kim64411/crime-map/blob/master/docs/prev.JPG">
 
 ## 1. 프로젝트 개요
 오픈소스 지도 API를 이용하여 유형별 범죄 현황을 지도에 나타내 표시한다.
@@ -43,4 +43,4 @@
 
 
 ## 5. 보고서
-* > [바로가기](https://github.com/baehongjun0212/H-Allym/tree/master/4.%20%ED%9A%8C%EC%9D%98%EB%A1%9D)
+* > [바로가기](https://github.com/kim64411/crime-map/blob/master/docs/)
